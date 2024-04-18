@@ -1,0 +1,33 @@
+html {
+    overflow-x:hidden;
+    margin: -8px;
+    /* background-color: #A4A9AD; */
+}
+.display {
+    height: 30vw;
+    width:100vw;
+    background-color: #FFBA49;
+}
+.container {
+    height: 5vw;
+    float: left;
+    background-color: #20A39E;
+    width:100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    /* align-items: center; */
+}
+.item {
+    background-color: #20A39E;
+    width:90px;
+    height: 50px;
+    text-align:center;
+    padding-bottom: 20px;
+}
+#x1,#x2,#x3,#x4,#x5,#x6,#x7,#x8 {
+    transition: background-color 0.5s,padding-bottom 0.5s;
+}
+#one, #two, #three, #four, #five {
+    transition: left 0.5s;
+}
